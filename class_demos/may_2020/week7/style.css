@@ -1,0 +1,91 @@
+body{
+  background-color: rgb(243, 217, 217);
+}
+
+.title{
+  color: rgb(136, 12, 37); 
+}
+
+.title::after{
+  content: ' :)';
+}
+
+.header-separator{
+  height: 1vh;
+  background-color: rgba(194, 194, 194, 0.322);
+}
+
+#right-nav{
+  float: right;
+}
+
+.clearfix{
+  overflow: auto;
+}
+
+.section > a:nth-of-type(2){
+  font-style: italic;
+}
+
+#header{
+  font-size:x-large;
+}
+
+#left-content{
+  width: 20vw;
+  float:left;
+  display: block;
+  margin: auto;
+  background-image: url('content/help.jfif');
+  height: 80vh;
+}
+
+#center-content{
+  width: 60vw;
+  margin:auto;
+  border: 2px dashed rgb(206, 64, 92);
+  height: 80vh;
+  overflow: scroll;
+}
+
+button{
+  font-size: larger;
+  background-image: radial-gradient(pink, purple, blue);
+  width: 100%;
+}
+
+a:nth-child(2):hover:before{
+  content: 'help';
+}
+
+img{
+  cursor: help;
+}
+
+footer{
+  text-align: center;
+}
+
+img[src*="win95"]{
+  border: solid 2px tomato;
+}
+
+@media (min-width: 800px){
+  #img-to-change{
+    height: 80vh;
+  }
+}
+
+@media (max-width: 400px){
+  img{
+    display: none;
+  }
+
+  #center-content{
+    overflow: hidden;
+  }
+}
+
+
+
+
