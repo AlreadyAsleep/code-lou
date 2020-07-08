@@ -1,0 +1,16 @@
+input{
+  margin: 1vh 1vh 1vh 1vh;
+}
+
+.center-content{
+  width: 80vw;
+  margin:auto;
+}
+
+.basic-form{
+  line-height: 1.6;
+}
+
+header{
+  background-color: aqua;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+      <h1>Ban Ben Petition</h1>
+    </header>
+    <div class="center-content">
+      <h2>Sign up to Ban Ben</h2>
+      <p>No Bens!</p>
+      <form class="basic-form" action="#" onsubmit="alert(validateInput(this));">
+        <p>
+          <button type="menu" onclick="activateNameInput();">Activate Name Text</button>
+        </p>
+        <p>
+          <label for="nameInput">Type your name</label>
+          <input id="nameInput" type="text" required disabled>
+        </p>
+        <p>
+          <label for="emailInput">Type your email address here</label>
+          <input id="emailInput" type="email" required>
+        </p>
+        <p>
+          <label for="reasonsList">Why ban Ben?</label>
+          <select id="reasonsList">
+            <option value="1">Tax Evasion</option>
+            <option value="2">Live Demo Failures</option>
+            <option value="3">Forgetfulness</option>
+            <option value="4">Spaghetti Code</option>
+            <option value="5">Mispelling Pasgheti</option>
+            <option value="6">Being Cool</option>
+          </select>
+        </p>
+        <button type="submit">Submit</button>
+        <button type="reset">Start Over</button>
+      </form>
+    </div>
+  </body>
+</html>
