@@ -1,0 +1,30 @@
+#header{
+  grid-area: header;
+}
+
+#image-selector{
+  grid-area: imageSelector;
+}
+
+#image-info{
+  grid-area: imageInfo;
+}
+
+#image-gallery{
+  grid-area: imageGallery;
+  margin: auto;
+}
+
+#footer{
+  grid-area: footer;
+}
+
+.grid-container{
+  display: grid;
+  text-align: center;
+  grid-template-areas: 
+  '. header header .'
+  '. imageGallery imageGallery imageSelector'
+  '.  imageGallery imageGallery imageInfo'
+  '. footer footer .';
+}
